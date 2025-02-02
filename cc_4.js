@@ -67,3 +67,11 @@ return price - (price * discountPercentage / 100);
 } // Function to calculate discounted price
 let total = applyDiscount(100, 10);
 console.log(`Discount Price: ${total}`); // Log discounted price to console
+
+// Task 10 Arrow Function
+
+calculatedPoints = (totalPurchase) => {
+    return totalPurchase / 10;
+}
+let points = calculatedPoints(350);
+console.log(`Points Earned: ${points}`)
