@@ -28,4 +28,15 @@ do {
     console.log(`User Response: ${responses}`)
     responses ++;
 
-} while (response < 3) // Collect user responses until response count reaches 3 
+} while (responses < 3) // Collect user responses until response count reaches 3 
+
+// Task 5 For...In Loop 
+
+let employee = {
+    name: "Alice", 
+    position: "Manager", 
+    salary: 75000}
+for (let property in employee ) {
+    console.log(`${property}: ${employee[property]}`); // Declare object and use for in loop to iterate over each property 
+}
+
