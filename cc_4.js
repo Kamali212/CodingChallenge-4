@@ -15,3 +15,9 @@ for (let i = 0; i < sales.length; i++) {
 } // Calculate total sales
 console.log(`Total Sale Amount: $${totalSales}`); // Log total sale amount to console
 
+// Task 3 While Loop
+let stock = 10; 
+while (stock > 0) {
+    console.log("Stock is", stock);
+    count--; 
+} // Decrease count by 1 until stock reaches 0
