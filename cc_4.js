@@ -48,7 +48,15 @@ for (let product of products) {
 
 // Task 7 forEach()
 
-let OrderId = [123, 124, 125]
-OrderId.forEach(Order => {
-    console.log(`Orders: ${Order}`)
-}); 
+let OrderId = [123, 124, 125] // Declare array of orders
+OrderId.forEach(Orders => {
+    console.log(`Order: ${Orders}`)
+}); // log order to console 
+
+// Task 8 Function Declaration 
+function calculateTax(amount, tax) {
+    return amount * tax
+} // Function to calculate tax on amount
+let tax = calculateTax(5, 0.05); 
+console.log(`Tax Amount: ${tax}`); // Log tax to console
+
