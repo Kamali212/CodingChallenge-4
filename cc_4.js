@@ -40,3 +40,9 @@ for (let property in employee ) {
     console.log(`${property}: ${employee[property]}`); // Declare object and use for in loop to iterate over each property 
 }
 
+// Task 6 For...Of Loop 
+let products = ["Speakers", "Vinyl", "Record Player"]; // Product list
+for (let product of products) {
+    console.log(`Products: ${product}`); // log product to console
+}
+
