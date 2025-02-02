@@ -46,3 +46,9 @@ for (let product of products) {
     console.log(`Products: ${product}`); // log product to console
 }
 
+// Task 7 forEach()
+
+let OrderId = [123, 124, 125]
+OrderId.forEach(Order => {
+    console.log(`Orders: ${Order}`)
+}); 
